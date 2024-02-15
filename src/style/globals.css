@@ -1,4 +1,42 @@
-:root {
+
+.header{
+  text-align: center;
+}
+
+.btn-handle{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 35px;
+  
+}
+
+.btn-carousel{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 35px;
+ 
+}
+
+.carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+
+}
+
+.carousel-image{
+  max-width: 80%;
+  
+}
+
+
+
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +142,5 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
+
